@@ -1,10 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
-
+    <title>
+      My Site
+    </title>
   </head>
   <body>
-    Jeremy
-    Francine
+    <section>
+      <h1>About</h1>
+      <button onclick="alertSomething()">Click me!</button>
+    </section>
+    <section>Experience</section>
+    <section>Connect</section>
   </body>
 </html>
+
+<script>
+  function alertSomething() {
+    alert('Something')
+  }
+</script>
+
+<style>
+  /* css */
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    background-color: rgb(80, 197, 201);
+    border-style: solid;
+    border-color: black;
+    margin: 15px;
+    color: white;
+  }
+</style>
